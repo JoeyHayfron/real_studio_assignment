@@ -1,0 +1,191 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(50, 113, 110, 0.7), rgba(50, 113, 110, 0.7) ), url(./header.jpg);
+    background-position: center;
+    position: relative;
+}
+
+.header-text{
+    text-align: left;
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    color: white;
+}
+
+.header-text h2{
+    font-weight: 500;
+}
+.header-text span{
+    display: block;
+    font-weight: 100;;
+}
+/* .header-image{
+    height: 300px;;
+    width: 100%;
+    object-fit: cover;
+} */
+
+.members-tab{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    background-color: #ececec;
+    left: 20%;
+    margin-bottom: 0.3px;
+}
+
+.left-content{
+    padding: 20px;
+    text-align: right;
+    background-color: #f9f9f9;
+}
+
+.right-content{
+    background-color: #f9f9f9;
+}
+
+.left-and-right{
+    position: relative;
+    background-color: #f9f9f9;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.left-buttons{
+    width: 65%;
+    margin-bottom: 5px;
+    display: block;
+    background-color: gray;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    padding-right:55px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border-radius: 5px;  
+}
+.active{
+    background-color: aqua;
+}
+
+.left-buttons:link{
+    text-decoration: none;
+    color:white;
+}
+
+.left-buttons:hover{
+    text-decoration: none;
+    color:white;
+    background-color: grey;
+}
+
+.left-cards{
+    position: relative;
+}
+
+.cardoverlay{
+    width: 100%;
+    opacity: 0; 
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    text-align: center;
+}
+
+.left-cards:hover .cardoverlay{
+    opacity: 80%;
+}
+
+.left-cards-after-st-two{
+    margin-top: 45px;
+}
+
+.vote-btn{
+    background-color: transparent;
+    border:1.5px white solid;
+    color: white;
+    font-weight: 400;
+    padding: 5px 35px;
+    border-radius: 7px;  
+}
+
+.vote-btn:hover{
+    border:1.5px white solid;
+    font-size: 18px;
+    padding: 8px 45px;
+}
+
+.login-link{
+    border: 1px aqua solid;
+    border-radius: 50px;
+    padding: 8px 20px;
+    background-color: #fbfbfb;
+}
+
+.search-icon{
+    font-size: 20px;
+    padding-right: 10px;
+    color: aqua;
+    cursor: pointer;
+    margin-top: 10px;;
+}
+
+.login-container{
+    width: 60%;
+    background-color: #C8C8C8;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form-content{
+    text-align: center;
+}
+
+.login-password{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 35px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.login-email{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.login-button{
+    margin-top: 30px;
+    width: 70%;
+    padding: 7px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border: 1px #424242 solid;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+}
+
+.register-login{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
